@@ -1,0 +1,17 @@
+name: ModelEngineTutorial
+version: '${version}'
+main: fr.nexomega.modelenginetutorial.ModelEngineTutorial
+api-version: 1.17
+depend:
+  - ModelEngine
+commands:
+  mob:
+    description: Spawn a mob
+    permission: modelenginetutorial.spawnmob
+    usage: /mob <mob>
+    aliases: [sm]
+  vfx:
+    description: Spawn a visual effect
+    permission: modelenginetutorial.spawnvfx
+    usage: /vfx <vfx>
+    aliases: [sv]
